@@ -15,7 +15,7 @@ module "gke" {
   node_pools = [
     {
       name               = "default-node-pool"
-      machine_type       = "e2-medium"
+      machine_type       = "e2-small"
       min_count          = 1
       max_count          = 100
       local_ssd_count    = 0
